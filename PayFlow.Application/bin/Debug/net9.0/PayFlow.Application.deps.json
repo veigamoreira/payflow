@@ -1,0 +1,26 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "PayFlow.Application/1.0.0": {
+        "dependencies": {
+          "PayFlow.Domain": "1.0.0"
+        },
+        "runtime": {
+          "PayFlow.Application.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PayFlow.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

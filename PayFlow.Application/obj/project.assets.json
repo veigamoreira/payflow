@@ -1,0 +1,105 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "PayFlow.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/PayFlow.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PayFlow.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PayFlow.Domain/1.0.0": {
+      "type": "project",
+      "path": "../PayFlow.Domain.csproj/PayFlow.Domain.csproj",
+      "msbuildProject": "../PayFlow.Domain.csproj/PayFlow.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "PayFlow.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\vagne\\.nuget\\packages\\": {},
+    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\test\\payflow\\PayFlow.Application\\PayFlow.Application.csproj",
+      "projectName": "PayFlow.Application",
+      "projectPath": "D:\\test\\payflow\\PayFlow.Application\\PayFlow.Application.csproj",
+      "packagesPath": "C:\\Users\\vagne\\.nuget\\packages\\",
+      "outputPath": "D:\\test\\payflow\\PayFlow.Application\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\vagne\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {
+            "D:\\test\\payflow\\PayFlow.Domain.csproj\\PayFlow.Domain.csproj": {
+              "projectPath": "D:\\test\\payflow\\PayFlow.Domain.csproj\\PayFlow.Domain.csproj"
+            },
+            "D:\\test\\payflow\\PayFlow.Domain\\PayFlow.Domain.csproj": {
+              "projectPath": "D:\\test\\payflow\\PayFlow.Domain\\PayFlow.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
