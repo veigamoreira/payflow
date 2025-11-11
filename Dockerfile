@@ -14,4 +14,4 @@ RUN dotnet publish PayFlow.Api/PayFlow.Api.csproj -c Release -o /app/publish
 FROM base AS final
 WORKDIR /app
 COPY --from=build /app/publish .
-ENTRYPOINT ["dotnet", "PayFlow.API.dll"]
+ENTRYPOINT ["dotnet", "PayFlow.Api.dll"]

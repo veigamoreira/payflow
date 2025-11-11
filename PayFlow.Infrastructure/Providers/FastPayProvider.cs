@@ -7,9 +7,9 @@ public class FastPayProvider : IPaymentProvider
 {
     public string Name => "FastPay";
 
-    public async Task<PaymentResult?> ProcessAsync(PaymentRequest payment)
+    public async Task<PaymentResult?> ProcessAsync(PaymentRequest paymentRequest)
     {
-        if (payment.AmountCents > 0)
+        if (paymentRequest.AmountCents > 0)
         {
             return new PaymentResult
             {
@@ -18,9 +18,9 @@ public class FastPayProvider : IPaymentProvider
                 StatusDetail = "Pagamento aprovado"
             };
         }
-        else if (payment.Amount > 0)
+        else if (paymentRequest.Amount > 0)
         {
-            var fee = CalculateFee(payment);
+            var fee = CalculateFee(paymentRequest);
 
             return new PaymentResult
             {
@@ -28,9 +28,9 @@ public class FastPayProvider : IPaymentProvider
                 ExternalId = "",
                 Status = "approved",
                 Provider = Name,
-                GrossAmount = payment.Amount.Value,
+                GrossAmount = paymentRequest.Amount.Value,
                 Fee = fee,
-                NetAmount = payment.Amount.Value - fee
+                NetAmount = paymentRequest.Amount.Value - fee
             };
         }
         else

@@ -27,6 +27,7 @@ artifacts/
 # Logs
 *.log
 
+*.vs
 # Docker
 *.pid
 *.seed

@@ -7,9 +7,9 @@ public class SecurePayProvider : IPaymentProvider
 {
     public string Name => "SecurePay";
 
-    public async Task<PaymentResult?> ProcessAsync(PaymentRequest payment)
+    public async Task<PaymentResult?> ProcessAsync(PaymentRequest paymentRequest)
     {
-        if (payment.TransactionAmount > 0)
+        if (paymentRequest.TransactionAmount > 0)
         {
             return new PaymentResult
             {
@@ -17,21 +17,26 @@ public class SecurePayProvider : IPaymentProvider
                 Result = "success"
             };
         }
-        else if (payment.Amount > 0)
+        else if (paymentRequest.Amount > 0)
         {
-            var fee = Math.Round(payment.Amount.Value * 0.0299m + 0.40m, 2);
+            var fee = CalculateFee(paymentRequest);
             return new PaymentResult
             {
                 Id ="2",
                 ExternalId = "",
                 Status = "approved",
                 Provider = Name,
-                GrossAmount = payment.Amount.Value,
+                GrossAmount = paymentRequest.Amount.Value,
                 Fee = fee,
-                NetAmount = payment.Amount.Value - fee
+                NetAmount = paymentRequest.Amount.Value - fee
             };
         }
         else
             return null;
+    }
+
+    public decimal CalculateFee(PaymentRequest payment)
+    {
+        return Math.Round(payment.Amount.Value * 0.0299m + 0.40m, 2);
     }
 }
