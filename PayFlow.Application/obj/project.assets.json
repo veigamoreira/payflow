@@ -17,12 +17,13 @@
   "libraries": {
     "PayFlow.Domain/1.0.0": {
       "type": "project",
-      "path": "../PayFlow.Domain.csproj/PayFlow.Domain.csproj",
-      "msbuildProject": "../PayFlow.Domain.csproj/PayFlow.Domain.csproj"
+      "path": "../PayFlow.Domain/PayFlow.Domain.csproj",
+      "msbuildProject": "../PayFlow.Domain/PayFlow.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "D:\\PayFlow\\Nova pasta\\payflow\\PayFlow.Domain.csproj\\PayFlow.Domain.csproj",
       "PayFlow.Domain >= 1.0.0"
     ]
   },
@@ -33,11 +34,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\test\\payflow\\PayFlow.Application\\PayFlow.Application.csproj",
+      "projectUniqueName": "D:\\PayFlow\\Nova pasta\\payflow\\PayFlow.Application\\PayFlow.Application.csproj",
       "projectName": "PayFlow.Application",
-      "projectPath": "D:\\test\\payflow\\PayFlow.Application\\PayFlow.Application.csproj",
+      "projectPath": "D:\\PayFlow\\Nova pasta\\payflow\\PayFlow.Application\\PayFlow.Application.csproj",
       "packagesPath": "C:\\Users\\vagne\\.nuget\\packages\\",
-      "outputPath": "D:\\test\\payflow\\PayFlow.Application\\obj\\",
+      "outputPath": "D:\\PayFlow\\Nova pasta\\payflow\\PayFlow.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -58,11 +59,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\test\\payflow\\PayFlow.Domain.csproj\\PayFlow.Domain.csproj": {
-              "projectPath": "D:\\test\\payflow\\PayFlow.Domain.csproj\\PayFlow.Domain.csproj"
+            "D:\\PayFlow\\Nova pasta\\payflow\\PayFlow.Domain.csproj\\PayFlow.Domain.csproj": {
+              "projectPath": "D:\\PayFlow\\Nova pasta\\payflow\\PayFlow.Domain.csproj\\PayFlow.Domain.csproj"
             },
-            "D:\\test\\payflow\\PayFlow.Domain\\PayFlow.Domain.csproj": {
-              "projectPath": "D:\\test\\payflow\\PayFlow.Domain\\PayFlow.Domain.csproj"
+            "D:\\PayFlow\\Nova pasta\\payflow\\PayFlow.Domain\\PayFlow.Domain.csproj": {
+              "projectPath": "D:\\PayFlow\\Nova pasta\\payflow\\PayFlow.Domain\\PayFlow.Domain.csproj"
             }
           }
         }
@@ -101,5 +102,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'D:\\PayFlow\\Nova pasta\\payflow\\PayFlow.Domain.csproj\\PayFlow.Domain.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "D:\\PayFlow\\Nova pasta\\payflow\\PayFlow.Domain.csproj\\PayFlow.Domain.csproj",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
 }

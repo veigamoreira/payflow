@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LXMyxvLX7LE=",
-  "success": true,
-  "projectFilePath": "D:\\test\\payflow\\PayFlow.API\\PayFlow.Api.csproj",
+  "dgSpecHash": "1E+gBHPXIhU=",
+  "success": false,
+  "projectFilePath": "D:\\PayFlow\\Nova pasta\\payflow\\PayFlow.API\\PayFlow.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vagne\\.nuget\\packages\\microsoft.extensions.apidescription.server\\9.0.0\\microsoft.extensions.apidescription.server.9.0.0.nupkg.sha512",
     "C:\\Users\\vagne\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.10\\microsoft.extensions.dependencyinjection.9.0.10.nupkg.sha512",
@@ -13,5 +13,17 @@
     "C:\\Users\\vagne\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\9.0.6\\swashbuckle.aspnetcore.swaggergen.9.0.6.nupkg.sha512",
     "C:\\Users\\vagne\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\9.0.6\\swashbuckle.aspnetcore.swaggerui.9.0.6.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'D:\\PayFlow\\Nova pasta\\payflow\\PayFlow.Domain.csproj\\PayFlow.Domain.csproj'. Check that the project reference is valid and that the project file exists.",
+      "projectPath": "D:\\PayFlow\\Nova pasta\\payflow\\PayFlow.API\\PayFlow.Api.csproj",
+      "filePath": "D:\\PayFlow\\Nova pasta\\payflow\\PayFlow.API\\PayFlow.Api.csproj",
+      "libraryId": "D:\\PayFlow\\Nova pasta\\payflow\\PayFlow.Domain.csproj\\PayFlow.Domain.csproj",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
 }

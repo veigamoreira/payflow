@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PayFlow.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b8e485954b0dc59517a1dd6cc43ea7136335c428")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+85aefdaa25583675bdc4215aa9390be47e5468f6")]
 [assembly: System.Reflection.AssemblyProductAttribute("PayFlow.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PayFlow.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
