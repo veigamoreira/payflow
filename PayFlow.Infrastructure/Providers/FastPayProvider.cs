@@ -39,7 +39,7 @@ public class FastPayProvider : IPaymentProvider
 
     public decimal CalculateFee(PaymentRequest payment)
     {
-        return Math.Round(payment.TransactionAmount.Value * 0.0349m, 2);
+        return Math.Round(payment.Amount.Value * 0.0349m, 2);
     }
 
 }
