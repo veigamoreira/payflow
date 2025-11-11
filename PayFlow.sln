@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayFlow.Application", "PayF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayFlow.Infrastructure", "PayFlow.Infrastructure\PayFlow.Infrastructure.csproj", "{C5A570FE-E5C9-4496-B1F9-53DDB8DB5507}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayFlow.Api", "PayFlow.API\PayFlow.Api.csproj", "{3F525B75-1721-E4D0-39DC-C6080F4075C5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayFlow.Api", "PayFlow.Api\PayFlow.Api.csproj", "{3F525B75-1721-E4D0-39DC-C6080F4075C5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayFlow.Domain", "PayFlow.Domain\PayFlow.Domain.csproj", "{D90A11D0-F63A-D7AB-7E97-FE584BAD35ED}"
 EndProject
